@@ -2,11 +2,11 @@
 require File.expand_path('../lib/refinery/ckeditor/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Micah Geisel"]
-  gem.email         = ["micah@botandrose.com"]
+  gem.authors       = ["Victorio iglesias"]
+  gem.email         = ["viglesias@neosystems.es"]
   gem.description   = %q{Replaces WYMEditor with CKEditor in Refinery CMS}
   gem.summary       = %q{Replaces WYMEditor with CKEditor in Refinery CMS. Also adds drag and drop sidebars for Images and Files.}
-  gem.homepage      = "https://github.com/botandrose/refinerycms-ckeditor"
+  gem.homepage      = "https://github.com/viglesias/refinerycms-ckeditor"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
